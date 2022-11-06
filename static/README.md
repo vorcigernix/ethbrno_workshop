@@ -1,4 +1,4 @@
-## First Amendment: An Overview
+# First Amendment: An Overview
 The First Amendment of the United States Constitution protects the right to freedom of religion and freedom of expression from government interference. It prohibits any laws that establish a national religion, impede the free exercise of religion, abridge the freedom of speech, infringe upon the freedom of the press, interfere with the right to peaceably assemble, or prohibit citizens from petitioning for a governmental redress of grievances. It was adopted into the Bill of Rights in 1791. The Supreme Court interprets the extent of the protection afforded to these rights. The First Amendment has been interpreted by the Court as applying to the entire federal government even though it is only expressly applicable to Congress. Furthermore, the Court has interpreted the Due Process Clause of the Fourteenth Amendment as protecting the rights in the First Amendment from interference by state governments. 
 
 ### Freedom of Religion

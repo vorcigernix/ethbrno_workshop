@@ -6,6 +6,7 @@
 	onMount(async () => {
 		const result = await fetch(`${base}/README.md`).then((r) => r.text());
 		if (result) data.content = await snarkdown(result);
+		console.log(result);
 	});
 </script>
 
