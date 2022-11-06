@@ -1,12 +1,14 @@
 <script>
 	import snarkdown from 'snarkdown';
 	import { onMount } from 'svelte';
-	import { base } from '$app/paths';
+	import { browser, dev, prerendering } from '$app/environment';
 	export let data;
 	onMount(async () => {
-		const result = await fetch(`${base}/README.md`).then((r) => r.text());
+		if (!browser) return;
+		const result = await fetch(
+			`https://raw.githubusercontent.com/vorcigernix/ethbrno_workshop/swr-markdown/static/README.md`
+		).then((r) => r.text());
 		if (result) data.content = await snarkdown(result);
-		console.log(result);
 	});
 </script>
 
