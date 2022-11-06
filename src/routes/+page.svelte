@@ -9,6 +9,7 @@
 			`https://raw.githubusercontent.com/vorcigernix/ethbrno_workshop/swr-markdown/static/README.md`
 		).then((r) => r.text());
 		if (result) data.content = await snarkdown(result);
+		console.log('data updated');
 	});
 </script>
 
